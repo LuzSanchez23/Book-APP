@@ -1,0 +1,19 @@
+body {
+
+  background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm252batch2-ning-12.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=a10d0b7b163122e929cf270c55a48a88);
+}
+.bg {
+  border: rgb(173, 127, 154) 3px groove;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+.title {
+  text-align: center;
+  font-family: 'Mea Culpa', cursive;
+  font-size: 5rem;
+  color: rgb(56, 38, 5);
+
+}
+
