@@ -1,5 +1,6 @@
 var createError = require('http-errors');
 var express = require('express');
+var PORT = process.env.PORT || 8000;
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
@@ -43,7 +44,7 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-app.listen(8000, function () {
-  console.log('App is listening on PORT ' + 8000)
+app.listen(PORT, function () {
+  console.log('App is listening on PORT ' + PORT)
 })
 module.exports = app;
